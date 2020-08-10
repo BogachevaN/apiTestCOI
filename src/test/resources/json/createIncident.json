@@ -1,0 +1,39 @@
+{
+  "theme": "Test incident theme",
+  "description": "Test incident description",
+  "attachment": {
+    "header": {
+      "schemaType": "incident",
+      "schemaVersion": "2.3"
+    },
+    "incident": {
+      "fixationAt": "2018-09-06T08:39:38.298Z",
+      "description": "string",
+      "registration": {
+        "department": "df",
+        "technicalDevice": "девайс"
+      },
+      "typeOfAttack": "other",
+      "vectorCode": "EXT",
+      "lawEnforcementRequest": {
+        "request": "NPL"
+      },
+      "classification": {
+        "typeOfIncident": "BAC",
+        "EXT": {
+          "eventList": [
+            {
+              "events": "MTR_WC",
+              "TaMfunds": "SMS"
+            }
+          ]
+        }
+      },
+      "impacts": {
+      },
+      "damage": {
+      },
+      "assistance": "NND"
+    }
+  }
+}

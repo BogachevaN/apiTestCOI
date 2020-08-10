@@ -1,0 +1,44 @@
+{
+  "assignee": "gavrilov",
+  "description": "Описание тестового инцидента",
+  "theme": "Тема инцидента с 1 вложением",
+  "attachment": {
+    "header": {
+      "schemaType": "incident",
+      "schemaVersion": "2.3"
+    },
+    "incident": {
+      "assistance": "NND",
+      "typeOfAttack": "spams",
+      "vectorCode": "INT",
+      "classification": {
+        "typeOfIncident": "MTR",
+        "INT": [
+          {
+            "events": "DT_OC",
+            "typeOfIntruder": "INT_ORG"
+          }
+        ]
+      },
+      "damage": {
+        "operating": "1000",
+        "relative": "MOD"
+      },
+      "description": "Описание тестового инцидента",
+      "fixationAt": "2019-12-01T06:00:00.000Z",
+      "impacts": {},
+      "lawEnforcementRequest": {
+        "request": "NPL"
+      },
+      "attachments": [],
+      "location": {
+        "locality": "Населенный пункт",
+        "subjectOfFederation": 1
+      },
+      "registration": {
+        "department": "Структурное подразделение",
+        "technicalDevice": "Техническое средство"
+      }
+    }
+  }
+}

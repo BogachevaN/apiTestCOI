@@ -1,0 +1,246 @@
+{
+  "theme": "New theme",
+  "description": "New description",
+  "attachment": {
+    "incident": {
+      "damage": {
+        "operating": "45856"
+      },
+      "lawEnforcementRequest": {
+        "number": 33333,
+        "datetimeAt": "2019-09-23T17:00:00Z",
+        "request": "POL",
+        "numberTicket": 89977979
+      },
+      "registration": {
+        "department": "Department 133",
+        "technicalDevice": "device 456"
+      },
+      "classification": {
+        "typeOfIncident": "BAC",
+        "EXT": {
+          "eventList": [
+            {
+              "events": "MTR_WC",
+              "TaMfunds": "SMS"
+            }
+          ]
+        }
+      },
+      "typeOfAttack": "malware",
+      "impacts": {
+        "malware": [
+          {
+            "iocs": [],
+            "malwareMessageAttachment": {},
+            "sources": [],
+            "malwareSamples": [],
+            "classifications": [],
+            "malwareMessageSenders": [],
+            "infectionMethod": {
+              "comment": ""
+            },
+            "harmfulResourceAddress": [],
+            "target": {
+              "ip": "0.0.0.0"
+            }
+          },
+          {
+            "iocs": [],
+            "malwareMessageAttachment": {},
+            "sources": [],
+            "malwareSamples": [],
+            "classifications": [],
+            "malwareMessageSenders": [],
+            "infectionMethod": {
+              "comment": ""
+            },
+            "harmfulResourceAddress": [],
+            "target": {
+              "ip": "0.0.0.0"
+            }
+          }
+        ]
+      },
+      "location": {
+        "locality": "РџСѓРЅРєС‚",
+        "subjectOfFederation": 50
+      },
+      "attachments": [
+        {
+          "file": {
+            "base64": "",
+            "size": "14954",
+            "name": "log_coi-coordinator-master_send_incident.txt"
+          },
+          "datetimeAt": "2019-09-24T05:16:04.022167Z"
+        }
+      ],
+      "assistance": "NND",
+      "measuresAndRecomendations": [
+        {
+          "dateTimeAt": "2019-09-24T05:11:51.251Z",
+          "sourceId": "49f16b1a-bc34-4837-95a9-27344845f692",
+          "text": "text 1",
+          "action": "measures"
+        },
+        {
+          "dateTimeAt": "2019-09-24T05:11:55.259Z",
+          "sourceId": "5ad43c77-9a92-4d41-99fb-294d5004011e",
+          "text": "РњРµСЂР° 2",
+          "action": "measures"
+        }
+      ],
+      "antifraud": {
+        "transfers": [
+          {
+            "sourceId": "305af3a6-6fb4-4d85-b338-9ecebf243588",
+            "transferInfo": {
+              "payerTransferId": {
+                "type": "paymentCard",
+                "paymentCard": {
+                  "RRN": "124",
+                  "currency": "643",
+                  "sum": 300,
+                  "datetimeAt": "2019-09-22T05:12:50.618Z",
+                  "number": "1457854215698546"
+                }
+              },
+              "device": {
+                "AIIC": "234",
+                "IMEI": "123",
+                "CAIC": "4444",
+                "CATI": "4444",
+                "ip": "1.2.3.5",
+                "IMSI": "123"
+              },
+              "payeeTransferId": {
+                "phoneNumber": {
+                  "number": "+7 445 522 22 22",
+                  "countryCode": "RU"
+                },
+                "type": "phoneNumber"
+              },
+              "detectedBy": "AFR"
+            },
+            "analyticForm": {
+              "oddPlace": false,
+              "cardProduct": "personal",
+              "newReceiver": true,
+              "lowTimeInterval": false,
+              "operationType": "transfer",
+              "oldReceiver": false,
+              "crossCountry": false,
+              "oddAmount": true
+            },
+            "payer": {
+              "orgType": "company",
+              "inn": "7704742763",
+              "hashes": []
+            },
+            "transferAdditionalInfo": {
+              "crossBorder": "CRB",
+              "additionalTransactionApprove": [
+                "DCS"
+              ]
+            }
+          },
+          {
+            "sourceId": "5f507615-32f9-4794-a3f7-5e9aaf50cbec",
+            "transferInfo": {
+              "payerTransferId": {
+                "eWallet": {
+                  "eCommercePaymentSystem": "ePaymentSystem",
+                  "currency": "643",
+                  "sum": 3455,
+                  "datetimeAt": "2019-09-24T05:14:38.624Z",
+                  "number": "233455"
+                },
+                "type": "eWallet"
+              },
+              "device": {
+                "AIIC": "4545",
+                "IMEI": "4545",
+                "CAIC": "545",
+                "CATI": "4544",
+                "ip": "2.2.3.6",
+                "IMSI": "355"
+              },
+              "payeeTransferId": {
+                "phoneNumber": {
+                  "number": "+7 445 522 22 22",
+                  "countryCode": "RU"
+                },
+                "type": "phoneNumber"
+              },
+              "detectedBy": "CLNT"
+            },
+            "analyticForm": {
+              "oddPlace": false,
+              "newReceiver": true,
+              "lowTimeInterval": false,
+              "oldReceiver": false,
+              "crossCountry": false,
+              "oddAmount": false
+            },
+            "payer": {
+              "orgType": "individual",
+              "inn": "",
+              "hashes": [
+                {
+                  "hash": "4daa6a25857a11fd88db03886b870649880bfa5312260a379772fb3b301b9824",
+                  "hashSnils": "cd34d75201cdb08ec84769b3a1cfec1855008df48fa5605ada37b6f9318d1b0d"
+                }
+              ]
+            },
+            "transferAdditionalInfo": {
+              "additionalTransactionApprove": []
+            }
+          }
+        ]
+      },
+      "vectorCode": "EXT",
+      "fixationAt": "2019-09-20T17:00:00Z",
+      "description": "РћРїРёСЃР°РЅРёРµ",
+      "serviceType": [
+        {
+          "description": "11111",
+          "type": "RBS"
+        },
+        {
+          "description": "1111",
+          "type": "ABS"
+        }
+      ],
+      "finalReport": {
+        "closeDateAt": "2019-09-24T05:10:21.796Z",
+        "signatures": [
+          {
+            "identifier": "333",
+            "name": "333",
+            "eventsAmount": 333,
+            "source": "333"
+          },
+          {
+            "identifier": "554",
+            "name": "533",
+            "eventsAmount": 443,
+            "source": "3434"
+          }
+        ],
+        "rootCause": "11",
+        "mainActions": "11",
+        "recovery": "Not_Full",
+        "description": "Description",
+        "snort": [
+          "11111",
+          "22222"
+        ]
+      }
+    },
+    "header": {
+      "schemaType": "incident",
+      "schemaVersion": "2.3"
+    }
+  }
+}

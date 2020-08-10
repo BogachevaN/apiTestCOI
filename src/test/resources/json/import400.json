@@ -1,0 +1,88 @@
+{
+  "header": {
+    "schemaType": "incident",
+    "schemaVersion": "2.1",
+    "sourceId": "6786eb3f-26db-40cd-877d-281f08ffa3fb",
+    "version": 1
+  },
+  "incident": {
+    "antifraud": {
+      "transfers": [
+        {
+          "payer": {
+            "hash": "",
+            "hashSnils": "",
+            "inn": "5024126516"
+          },
+          "sourceId ": "cde1f8eb-f2ac-47eb-b67c-951caa323770",
+          "transferAdditionalInfo": {
+            "additionalTransactionApprove": [],
+            "crossBorder": "DOM"
+          },
+          "transferInfo": {
+            "payeeTransferId": {
+              "bankAccount": {
+                "bik ": "044030795",
+                "number ": "40802810000230000746"
+              },
+              "type": "bankAccount"
+            },
+            "payerTransferId": {
+              "bankAccount": {
+                "bik ": "044525881",
+                "currency ": "810",
+                "datetimeAt ": "2019-11-20T03:59:34.793Z",
+                "number ": "40702810200020002070",
+                "sum ": 0
+              },
+              "type": "bankAccount"
+            }
+          },
+          "transferState": "notConfirmed"
+        }
+      ]
+    },
+    "assistance": "NND",
+    "attachments": [],
+    "classification": {
+      "EXT": {
+        "detectedBy": "CLNT",
+        "eventList": [
+          {
+            "TaMfunds": "OTH",
+            "events": "OTH"
+          }
+        ]
+      },
+      "typeOfIncident": "MTR"
+    },
+    "damage": {},
+    "description": "Операция без согласия",
+    "finalReport": {
+      "closeDateAt": "2020-06-19T06:45:12.593Z",
+      "signatures": [],
+      "snort": []
+    },
+    "fixationAt": "2020-06-19T06:45:12.593Z",
+    "impacts": {
+      "other": {
+        "target": {}
+      }
+    },
+    "lawEnforcementRequest": {
+      "datetimeAt": null,
+      "request": "UNKW"
+    },
+    "location": {
+      "locality": ""
+    },
+    "measuresAndRecomendations": [],
+    "registration": {
+      "department": "Клиент",
+      "technicalDevice": "Техническое средство клиента"
+    },
+    "serviceType": [],
+    "typeOfAttack": "other",
+    "vectorCode": "EXT"
+  }
+}

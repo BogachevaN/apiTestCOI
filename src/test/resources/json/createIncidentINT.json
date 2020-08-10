@@ -1,0 +1,136 @@
+{
+  "theme": "Test incident theme",
+  "description": "Test incident description",
+  "assignee": "gavrilov",
+  "attachment": {
+    "header": {
+      "schemaType": "incident",
+      "schemaVersion": "2.3"
+    },
+    "incident": {
+      "damage": {
+        "relative": "MOD",
+        "operating": "23333"
+      },
+      "lawEnforcementRequest": {
+        "request": "UNKW"
+      },
+      "registration": {
+        "department": "w3234",
+        "technicalDevice": "32333"
+      },
+      "classification": {
+        "typeOfIncident": "FMA",
+        "INT": [
+          {
+            "events": "FMS_UA",
+            "typeOfIntruder": "EXT_ORG"
+          },
+          {
+            "events": "EMP_UA",
+            "typeOfIntruder": "EXT_ORG"
+          }
+        ]
+      },
+      "typeOfAttack": "trafficHijackAttacks",
+      "impacts": {
+        "trafficHijackAttacks": [
+          {
+            "wrongAsPath": "",
+            "lookingGlass": "",
+            "legalPrefix": "",
+            "wrongPrefix": "",
+            "legalAsPath": ""
+          }
+        ]
+      },
+      "location": {
+        "locality": "wwww",
+        "subjectOfFederation": 50
+      },
+      "attachments": [],
+      "assistance": "NND",
+      "measuresAndRecomendations": [
+        {
+          "dateTimeAt": "2019-09-24T06:19:30.226Z",
+          "sourceId": "a305c1d0-c490-4dc2-8885-15abd4a3aed6",
+          "text": "2222",
+          "action": "measures"
+        },
+        {
+          "dateTimeAt": "2019-09-24T06:19:32.531Z",
+          "sourceId": "ea387644-df80-4768-8501-b71159e3f6be",
+          "text": "3333",
+          "action": "measures"
+        }
+      ],
+      "antifraud": {
+        "transfers": [
+          {
+            "sourceId": "ba0ee971-215d-46b9-a04f-192043bd32ea",
+            "transferInfo": {
+              "payerTransferId": {
+                "type": "paymentCard",
+                "paymentCard": {
+                  "RRN": "322",
+                  "currency": "643",
+                  "sum": 120,
+                  "datetimeAt": "2019-09-04T06:20:28.717Z",
+                  "number": "1234567891245786"
+                }
+              },
+              "device": {},
+              "payeeTransferId": {
+                "type": "paymentCard",
+                "paymentCard": {
+                  "number": "1222335566666666"
+                }
+              },
+              "detectedBy": "INT"
+            },
+            "analyticForm": {
+              "oddPlace": false,
+              "newReceiver": false,
+              "lowTimeInterval": false,
+              "oldReceiver": false,
+              "crossCountry": false,
+              "oddAmount": false
+            },
+            "payer": {
+              "orgType": "company",
+              "inn": "7714009587",
+              "hashes": [
+                {
+                  "hash": "0b2cf51bb5701bc355396348b72a25649181af0d3dad2bb323ddb5405b32a708",
+                  "hashSnils": "cd34d75201cdb08ec84769b3a1cfec1855008df48fa5605ada37b6f9318d1b0d"
+                }
+              ]
+            },
+            "transferAdditionalInfo": {
+              "additionalTransactionApprove": []
+            }
+          }
+        ]
+      },
+      "vectorCode": "INT",
+      "fixationAt": "2019-08-03T17:00:00Z",
+      "description": "qqqqq",
+      "serviceType": [
+        {
+          "description": "333",
+          "type": "RBS"
+        },
+        {
+          "description": "333",
+          "type": "WEB"
+        }
+      ],
+      "finalReport": {
+        "closeDateAt": "2019-09-24T06:18:19.956Z",
+        "signatures": [],
+        "snort": []
+      }
+    }
+  }
+}
+

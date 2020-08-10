@@ -1,0 +1,63 @@
+{
+  "assignee": "gavrilov",
+  "attachment": {
+    "header": {
+      "schemaType": "incident",
+      "schemaVersion": "2.3"
+    },
+    "incident": {
+      "antifraud": {
+        "transfers": [
+          {
+            "payer": {
+              "hashes": [
+                {
+                  "hash": "5656123456",
+                  "hashSnils": "12312312345"
+                }
+              ],
+              "orgType": "individual"
+            },
+            "transferAdditionalInfo": {
+              "additionalTransactionApprove": [],
+              "crossBorder": "DOM"
+            },
+            "transferInfo": {
+              "detectedBy": "CLNT",
+              "payerTransferId": {
+                "phoneNumber": {
+                  "number": "891245636512",
+                  "countryCode": "RU",
+                  "sum": "6000"
+                },
+                "type": "phoneNumber"
+              }
+            },
+            "sourceId": "97867901-f23d-4018-8a08-34fea6cc4d4e"
+          }
+        ]
+      },
+      "assistance": "HLP",
+      "classification": {
+        "typeOfIncident": "BAC"
+      },
+      "damage": {},
+      "fixationAt": "2019-12-02T01:25:00.000Z",
+      "impacts": {},
+      "lawEnforcementRequest": {
+        "request": "UNKW"
+      },
+      "location": {},
+      "measuresAndRecomendations": [],
+      "registration": {
+        "department": "df",
+        "technicalDevice": "девайс"
+      },
+      "serviceType": [],
+      "description": "",
+      "vectorCode": "INT",
+      "typeOfAttack": "other"
+    }
+  },
+  "theme": "Тестирвоание хэша"
+}
